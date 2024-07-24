@@ -7,10 +7,10 @@
     }
 </script>
 
-<div class="panel" style="margin-bottom:-50px; background: rgba( 255, 255, 255, 0.15 ); box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); backdrop-filter: blur( 8px ); -webkit-backdrop-filter: blur( 8px ); border-radius: 10px; border: 1px solid rgba( 255, 255, 255, 0.18 ); "> <div class="panel-heading" style="background: #683884; ">     <center style="color: white">  <h3 class="panel-title" style="color:#fff">Formulaire de Candidature : <span>MASTER          EN FINANCES PUBLIQUES:</span> </h3>     </center> </div> </div>
+<div class="panel" style="margin-bottom:-30px; background: rgba( 255, 255, 255, 0.15 ); box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); backdrop-filter: blur( 8px ); -webkit-backdrop-filter: blur( 8px ); border-radius: 10px; border: 1px solid rgba( 255, 255, 255, 0.18 ); "> <div class="panel-heading" style="background: #683884; ">     <center style="color: white">  <h3 class="panel-title" style="color:#fff">Formulaire de Candidature : <span>MASTER          EN FINANCES PUBLIQUES:</span> </h3>     </center> </div> </div>
 <div>
             <div class="formbold-main-wrapper">
-                <div class="formbold-form-wrapper"> <img src="">
+            <div class="formbold-form-wrapper" style="max-width: 90%;"> <center><img src="<?= base_url()?>resources/assets/images/logo.png" style = "margin-bottom:40px;width : 30%"></center>
                     <form id="myForm" method="post" class="bs-example form-horizontal" action="<?php echo $action; ?>">
                     <?php //echo validation_errors(); ?><!-- <div class="formbold-mb-3"><label for="upload" class="formbold-form-label"> importer  une photo</label><input type="file" name="upload" id="upload"  class="formbold-form-input formbold-form-file" /> </div>              -->               <div>     <div><!--groupe1-->     <legend>I - Formation</legend> <div class="formbold-mb-3"> <span style="color: red"></span> <label for="specialite" class="formbold-form-label">Spécialité *:</label> <select class="formbold-form-input" name="specialite"  id="specialite" required>  <option value="" selected ="selected">------------- Choisir la Spécialité ------------</option>  <?php foreach ($specialites as $specialite) {
                          if ($specialite->id == $this->form_data->specialite) {

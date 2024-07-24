@@ -16,11 +16,15 @@
     
     <script src="<?php echo base_url(); ?>resources/js/mainAjax.js"></script>-->
 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!--
     <link href="<?php echo base_url(); ?>resources/assets/bootstrap-lib/css/bootstrap.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>resources/assets/bootstrap-lib/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>resources/assets/bootstrap-lib/css/docs.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>resources/assets/bootstrap-lib/js/google-code-prettify/prettify.css"
-        rel="stylesheet">
+        rel="stylesheet">-->
     <link rel="shortcut icon" type="image/png" href="http://candidature.pfinancespubliques.org/favicon.png" />
     <script type="text/javascript">
         $(function () {
@@ -83,11 +87,6 @@
     *{
         font-family: "Open Sans", sans-serif;
     }
-    /*body{
-
-        background-image: url("<?= base_url()?>resources/assets/bg_1.jpg");
-        background-size: cover;
-    }*/
 </style>
     <script src="<?php echo base_url(); ?>resources/org_lib/ga.js" async="" type="text/javascript"></script>
     <script type="text/javascript">
