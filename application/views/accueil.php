@@ -1,5 +1,5 @@
 <style>
-    #page{background-image: url(<?= base_url()?>resources/assets/bg_1.svg);}
+    #page{background-image: url(<?= base_url()?>resources/assets/bg_3.jpg); background-size: cover;}
 </style>
 <div class="row" style="background : none">
     <div class="col-lg-12">
@@ -145,7 +145,7 @@
                                         </p>
                                         <p style="font-size: 14px;">
                                             <a href="https://www.pfinancespubliques.org/index.php/candidature/add">1.
-                                                Fiche de candidature 2023</a> <br />
+                                                Fiche de candidature 2024</a> <br />
                                             <a href="http://candidature.pfinancespubliques.org/doc/2023/PSSFP_APPEL_CANDIDATURE_P11_2023-2024.pdf"
                                                 target="blank">2. Communiqué 2023 (version Française & English
                                                 version)</a><br />
