@@ -1,4 +1,7 @@
-<div class="row">
+<style>
+    #page{background-image: url(<?= base_url()?>resources/assets/bg_1.svg);}
+</style>
+<div class="row" style="background : none">
     <div class="col-lg-12">
 
         <div class="bs-example">

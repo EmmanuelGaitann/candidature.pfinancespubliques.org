@@ -16,7 +16,7 @@
 			<table>	
 				<tr>
 					<td>
-					<div class='header_left'>
+					<div class='header_left' style="text-align : center">
 						REPUBLIQUE DU CAMEROUN <br />
 						Paix- Travail- Patrie<br />
 						--------------<br />
@@ -29,16 +29,16 @@
 						--------------<br />
 
 					</div>			
-					<td>				
+					<td><!------------				
 					<div class='header_middle'>
-						<img src="/home/www/candidature.pfinancespubliques.org/resources/images/logo5.png" style="width: 150px;"/>
-					</div>
+						<img src="/home/www/candidature.pfinancespubliques.org/resources/assets/images/logo.png" style="width: 150px;"/>
+					</div>-->
 					</td>					
 					<td width='50'>					
 					</td>
 					</td>
 					<td>
-					<div class='header_right'>
+					<div class='header_right' style="text-align : center">
 						REPUBLIC OF CAMEROON<br />
 						Peace- Work- Fatherland<br />
 						--------------<br />
@@ -64,17 +64,17 @@
                         <table >
 				<tr>
 					<td width='450'>
-                                            <div style="margin-top: -30px; ">
-						<strong>Specialite :  </strong><span class="info"> <?php echo $candidat->specialite ;?></span><br />
-						<strong>Type de formation :  </strong><span class="info"> <?php echo $candidat->type_etude ;?></span>
+						<div >
+								<strong>Specialite :  </strong><span class="info"> <?php echo $candidat->specialite ;?></span><br />
+								<strong>Type de formation :  </strong><span class="info"> <?php echo $candidat->type_etude ;?></span>
 					    </div>
 					</td>
 					<td>
-                                            <div style="margin-top: -30px; " class='photo'><i>Photo récente 4x4</i></div>
+                           <div style="margin-top: -30px; " class='photo'><i>Photo récente 4x4</i></div>
 					</td>
 				</tr>
 			</table>
-			</div>
+			</div><br><br>
                         
                         <div style ="padding-top:-50px">
 			<h4 style ="border-bottom: 1px solid; width: 600px;   " >II. ETAT CIVIL</h4>
@@ -133,12 +133,14 @@
 			<table style="margin-top: -20px;" class="pousser_haut">		
 				<tr>
 					<td>
-						<strong>Adresse :  </strong><span class="info"><?php echo substr($candidat->adresse_candidat , 0, 23)."...";?> </span><br />
-					</td>					
+						<strong>Adresse :  </strong><span class="info"><?php echo $candidat->adresse_candidat ."...";?> </span><br />
+					</td>				
+				</tr>	
+				<tr>				
 					<td>
 						<strong>Lieu de résidence :  </strong><span class="info"><?php echo substr($candidat->ville_residence  , 0, 35);?></span><br />
 					</td>					
-				</tr>				
+				</tr>					
 				<tr>
 					<td>
 						<strong>Téléphone 1: </strong><span class="info"><?php echo $candidat->telephone ;?></span> <br />
@@ -193,10 +195,10 @@
 					</td>					
 				</tr>				
 				<tr>
-					<td height="5"></td><td></td><td></td>
+					<td height="5"></td><td></td><td></td><td></td><td></td><td></td>
 				</tr>
 			</table>
-			<h4 style ="border-bottom: 1px solid; width: 780px;" class="pousser_haut">VI. ENGAGEMENT</h4>
+			<h4 style ="border-bottom: 1px solid; width: 780px; margin-top:40px;" class="pousser_haut">VI. ENGAGEMENT</h4>
 			<table style="margin-top: -70px;" >
 				<tr>
 					<td colspan="3">
