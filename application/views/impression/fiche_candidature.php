@@ -1,64 +1,63 @@
 <html lang="en">
-	
     <body>
-    <link rel="stylesheet" href="/home/www/candidature.pfinancespubliques.org/resources/css/stylepdf.css">
-    <style>
-		@page {
-			margin-top: 0.3em;
-			margin-left: 0.9em;
-			margin-right: 0.9em;
-			margin-bottom: 0.9em;
-		}
-	</style>
-	
-		<div class='header'>
-		
-			<table>	
-				<tr>
-					<td>
-					<div class='header_left' style="text-align : center">
-						REPUBLIQUE DU CAMEROUN <br />
-						Paix- Travail- Patrie<br />
-						--------------<br />
-						MINISTERE DES FINANCES<br />
-						--------------<br />
-						SECRETARIAT GENERAL<br />
-						--------------<br />
-						PROGRAMME SUPERIEUR DE SPECIALISATION <br />
-						EN FINANCES PUBLIQUES<br />
-						--------------<br />
-
-					</div>			
-					<td><!------------				
-					<div class='header_middle'>
-						<img src="/home/www/candidature.pfinancespubliques.org/resources/assets/images/logo.png" style="width: 150px;"/>
-					</div>-->
-					</td>					
-					<td width='50'>					
-					</td>
-					</td>
-					<td>
-					<div class='header_right' style="text-align : center">
-						REPUBLIC OF CAMEROON<br />
-						Peace- Work- Fatherland<br />
-						--------------<br />
-						MINISTRY OF FINANCE<br />
-						----------------<br />
-						GENERAL SECRETARIAT<br />
-						--------------<br />
-						ADVANCED PROGRAM OF SPECIALISATION<br />
-						IN PUBLIC FINANCE<br />
-						--------------<br />
-
-					</div>
-					</td>				
-				</tr>				
-			</table>
-		</div>
-		<div>			<center><p>
-			<h3 style ='margin-top: -8px;font-size:14px; '> <font style="color: #dd5600; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MASTER PROFESSIONNEL EN FINANCES PUBLIQUES </font></h3>
-			<span style="text-decoration: underline;font-size:14px; margin-top: -20px;"  >FORMULAIRE D&rsquo;INSCRIPTION N°:</span> <?php echo $candidat->ordre_candidature ;?><p></center>
-			
+        <link rel="stylesheet" href="/home/www/candidature.pfinancespubliques.org/resources/css/stylepdf.css">
+        <style>
+            @page {
+                margin-top: 0.3em;
+                margin-left: 0.9em;
+                margin-right: 0.9em;
+                margin-bottom: 0.9em;
+            }
+        </style>
+        <table>
+            <tr>
+                <td>
+                    <div class='header_left' style="text-align: center">
+                        REPUBLIQUE DU CAMEROUN <br />
+                        Paix- Travail- Patrie<br />
+                        --------------<br />
+                        MINISTERE DES FINANCES<br />
+                        --------------<br />
+                        SECRETARIAT GENERAL<br />
+                        --------------<br />
+                        PROGRAMME SUPERIEUR DE SPECIALISATION <br />
+                        EN FINANCES PUBLIQUES<br />
+                        --------------<br />
+                    </div>
+                </td>
+                <td>
+                    <center>
+                        <div class='header_middle' >
+							<span><img src="<?= base_url('application/views/impressions/logopssfp.png') ?> alt=""></span>
+                             </div>
+                    </center>
+                </td>
+                <td width='50'></td>
+                <td>
+                    <div class='header_right' style="text-align: center">
+                        REPUBLIC OF CAMEROON<br />
+                        Peace- Work- Fatherland<br />
+                        --------------<br />
+                        MINISTRY OF FINANCE<br />
+                        ----------------<br />
+                        GENERAL SECRETARIAT<br />
+                        --------------<br />
+                        ADVANCED PROGRAM OF SPECIALISATION<br />
+                        IN PUBLIC FINANCE<br />
+                        --------------<br />
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div>
+            <center>
+                <h3 style='margin-top: -8px;font-size:14px;'>
+                    <font style="color: #dd5600;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MASTER PROFESSIONNEL EN FINANCES PUBLIQUES </font>
+                </h3>
+                <span style="text-decoration: underline;font-size:14px; margin-top: -20px;">FORMULAIRE D&rsquo;INSCRIPTION N°:</span>
+                <?= $candidat->ordre_candidature; ?>
+            </center>
+        </div>
 			<div style ="padding-top:-30px">
 			<h4 style ="border-bottom: 1px solid; width: 600px; ">I. SPECIALITE</h4>
                         <table >

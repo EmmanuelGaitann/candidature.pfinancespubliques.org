@@ -18,7 +18,7 @@
 </div>
 <div>
     <div class="formbold-main-wrapper">
-        <div class="formbold-form-wrapper" style="max-width: 90%;">
+        <div class="formbold-form-wrapper" style="max-width: 95%;">
            <!-- <img src="<?= base_url() ?>resources/assets/images/logform.png" style="margin-bottom:40px;width : 10%">-->
             
             <form id="myForm" method="post" class="bs-example form-horizontal" action="<?php echo $action; ?>">
@@ -40,8 +40,8 @@
                                 } ?>
                             </select> </div>
                     </div>
-                    <div class="form-group "> <span style="color: red"></span> <label for="specialite"
-                            class="col-lg-5 control-label">Type d'étude <span style="color : red">*</span> :</label>
+                    <div class="form-group "> <span style="color: red;"></span> <label for="specialite"
+                            class="col-lg-5 control-label" style="margin: 10px" >Type d'étude <span style="color : red; margin: 10px">*</span> :</label>
                         <div class="col-lg-7"> <Input type='Radio' Name='type_etude' required value="Presentiel" <?php if (isset($this->form_data->type_etude) && $this->form_data->type_etude === 'Présentiel')
                             echo 'checked = "checked"'; ?>>&nbsp;&nbsp;Présentiel&nbsp;&nbsp;&nbsp; <Input
                                 type='Radio' Name='type_etude' required value="Distanciel" <?php if (isset($this->form_data->type_etude) && $this->form_data->type_etude === 'Distanciel')
@@ -183,8 +183,8 @@
                         <legend>III- Contacts du candidat</legend>
                         <div class="formbold-mb-3"> <span style="color: red"></span>
                             <div class="formbold-input-wrapp formbold-mb-3"> <span style="color: red"></span> <label
-                                    for="paysorigine" class="formbold-form-input"> Pays d'origine : </label>
-                                <div> <select name="paysorigine" class="form-control taille_champ" id="paysorigine"
+                            for="paysorigine" class="formbold-form-label"> Pays de résidence : </label>
+                                <div> <select name="paysorigine" class="formbold-form-input" id="paysorigine"
                                         required>
                                         <option value="" selected="selected">------------- Choisir pays
                                             d'origine------------</option><?php foreach ($pays as $pay) {
@@ -450,6 +450,9 @@
         padding: 0;
         box-sizing: border-box;
     }
+    .formbold-form-input{
+        min-height: 40px;
+    }
 
     body {
         font-family: 'Inter', sans-serif;
@@ -547,7 +550,7 @@
         font-size: 14px;
         line-height: 24px;
         display: block;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .formbold-checkbox-label {
